@@ -6,10 +6,8 @@ int motorvoltage;
 
 
 void setup()  {
-  lcd.print("Power:" + motorvoltage);
+  lcd.print(motorvoltage);
   Serial.begin(9600);
-  
-  
 }
 
 void loop()
